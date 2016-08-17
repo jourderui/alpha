@@ -1,0 +1,27 @@
+{
+  "name": "alpha",
+  "version": "1.0.0",
+  "description": "alpha release",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run eslint-internal -loglevel silent && npm run karma-src -loglevel silent && npm run karma-lib -loglevel silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryoenji/alpha.git"
+  },
+  "keywords": [
+    "alpha"
+  ],
+  "author": "stoneflesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prigara/debugging-webpack/issues"
+  },
+  "homepage": "https://github.com/prigara/debugging-webpack#readme"
+}
